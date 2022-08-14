@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: "Roboto";
+    overflow-x: hidden;
+}
+
+.container {
+    width: 955px;
+    margin: 0 auto;
+}
+
+.container, .frame2 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom_h1 {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0 175px;
+}
+
+.num_1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.pic_1 {
+    position: relative;
+    left: 50px;
+    z-index: 1;
+}
+
+.pram_1 {
+    position: relative;
+    top: 8px;
+    right: 221px;
+}
+
+.custom_h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0 17px;
+}
+li {
+    color: #468ADD;
+}
+li span {
+    color: black;
+}
+
+.pic_2 {
+    position: relative;
+    left: 280px;
+    z-index: 1;
+}
+
+.pram_2 {
+    position: relative;
+    top: 8px;
+}
+
+.pic_3 {
+    position: relative;
+    left: 35px;
+    z-index: 1;
+}
+
+.pram_3 {
+    position: relative;
+    top: 8px;
+    right: 264px;
+}
+
+.cifry {
+    width: 7px;
+    height: 610px;
+    background-color: #F8F8F8;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 480px;
+    bottom: 770px;
+}
+
+.cyrcle {
+    width: 35px; 
+    height: 35px;
+    background: #468ADD;
+    display: flex;
+    border-radius: 50%;
+    position: relative;
+    bottom: 5px;
+    right: 13px;
+}
+
+.cyrcle p {
+    color: white;
+    margin: 8px 13px;
+}
+
+.content_cifry {
+    margin: 0 auto;
+    width: 50px;
+    position: absolute;
+}
